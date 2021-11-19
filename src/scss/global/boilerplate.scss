@@ -1,0 +1,33 @@
+@use '../utils/' as *;
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0px;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: $font-spacemono;
+    background-color: $c-cyan-grayish-light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button{
+    border: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,28 @@
+@use '../../scss/utils/' as *;
+
+.input{
+  display: flex;
+  align-items: center;
+  gap: rem(8);
+  padding: 0 rem(16);
+  border-radius: rem(4);
+  background: $c-cyan-grayish-verylight;
+  &:focus-within{
+    outline: rem(2) solid $c-primary;
+  }
+
+  .icon{
+    height: rem(14);
+  }
+  input{
+    font-family: $font-spacemono;
+    width: 100%;
+    color: $c-cyan-dark;
+    font-weight: 700;
+    font-size: rem(20);
+    text-align: end;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+}

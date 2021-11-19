@@ -1,0 +1,12 @@
+@use '../../scss/utils/' as *;
+
+.button{
+  @include button($c-cyan-dark, $c-white);
+  &.bg-primary{
+    @include button($c-primary, $c-cyan-dark);
+  }
+  &.selected, &:hover{
+    background-color: $c-primary;
+    color: $c-cyan-dark;
+  }
+}

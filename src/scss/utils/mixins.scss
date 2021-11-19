@@ -1,0 +1,20 @@
+@use './functions.scss' as *;
+@use './fonts.scss' as *;
+
+%button-base{
+  padding: rem(4) rem(8);
+  font-size: rem(18);
+  font-family: $font-spacemono;
+  border-radius: rem(4);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  width: 100%
+}
+
+@mixin button($background, $color) {
+  @extend %button-base;
+
+  background-color: $background;
+  color: $color;
+}
