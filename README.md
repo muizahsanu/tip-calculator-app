@@ -81,4 +81,4 @@ And one thing I want to learn is English. :)
 
 ## Acknowledgments
 
-I am newbie in React JS, but what I learn is creating a component is not just create a component.
+Learn in advance what you are going to make, about how to finish it. What I did was make it right away without planning and studying it first. and in the middle I got into trouble and had to change the code quite a lot. lol
